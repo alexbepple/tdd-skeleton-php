@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class RomanNumbersTest extends TestCase
+class ExampleTest extends TestCase
 {
     public function testSomething() 
     {
