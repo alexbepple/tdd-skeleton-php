@@ -1,3 +1,4 @@
+.DEFAULT_GOAL := test
 
 base_image := php:7.1-alpine
 pwd := $(shell pwd)
