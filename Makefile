@@ -11,5 +11,5 @@ composer:
 
 php_image_wd := /app
 test:
-	docker run --rm -v $(pwd):$(php_image_wd) -w $(php_image_wd) --entrypoint $(php_image_wd)/vendor/bin/phpunit $(base_image) tests
+	docker run --rm -v $(pwd):$(php_image_wd) -w $(php_image_wd) --entrypoint $(php_image_wd)/vendor/bin/phpunit $(base_image) --colors=always tests
 
